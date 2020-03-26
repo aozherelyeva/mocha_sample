@@ -11,7 +11,7 @@ describe('Factorial tests', function () {
         it('should return a number without exponent when 1 < number < 22', function () {
             assert.equal(MathObj.prototype.getFactorial(21), 51090942171709440000);
         });
-        it('should return a number without exponent when 22 =< number < 170', function () {
+        it('should return a number with an exponent when 22 =< number < 170', function () {
             assert.equal(MathObj.prototype.getFactorial(22), 1.1240007277776077e+21);
         });
 
